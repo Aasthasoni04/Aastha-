@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>ShopEasy India</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar">
+ <div class="logo">ShopEasy 🇮🇳</div>
+ <ul class="nav-links" id="navLinks">
+ <li><a href="#">Home</a></li>
+ <li><a href="login.html">Login</a></li>
+ <li class="cart"> <span id="cart-count">0</span></li>
+ </ul>
+ <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+<!-- HERO -->
+<section class="hero-india">
+ <h1>Apna Store, Apni Pehchaan</h1>
+ <p>Trusted by Millions of Indians 🇮🇳</p>
+ <div class="badges">
+ <span> Diwali Sale</span>
+ <span> Cash on Delivery</span>
+ <span> Free Delivery</span>
+ </div>
+ <a href="#products" class="hero-btn">Shop Now</a>
+</section>
+<!-- PRODUCTS -->
+<section class="products" id="products">
+ <div class="product-card">
+ <img src="https://uploads.onecompiler.io/447ma77s4/44cebrcf6/Screenshot%202026-02-
+02%20175945.png">
+ <h3>Wireless Headphones</h3>
+ <p>₹1,999</p>
+ <button onclick="addToCart(1999)">Add to Cart</button>
+ </div>
+ <div class="product-card">
+ <img src="https://uploads.onecompiler.io/447ma77s4/44cebrcf6/Screenshot%202026-02-
+02%20180358.png">
+ <h3>Smart Watch</h3>
+ <p>₹2,999</p>
+ <button onclick="addToCart(2999)">Add to Cart</button>
+ </div>
+ <div class="product-card">
+ <img src="https://uploads.onecompiler.io/447ma77s4/44cebrcf6/Screenshot%202026-02-
+02%20180455.png">
+ <h3>Digital Camera</h3>
+ <p>₹9,999</p>
+ <button onclick="addToCart(9999)">Add to Cart</button>
+ </div>
+</section>
+<!-- TOTAL -->
+<div class="total">
+ Total Amount: <strong id="total-price">₹0</strong>
+</div>
+<!-- TRUST -->
+<section class="trust-india">
+ <h2>Why Indians Trust Us </h2>
+ <div class="trust-grid">
+ <div>🇮🇳 Made in India</div>
+ <div> Secure Payments</div>
+ <div> Easy Returns</div>
+ <div> All India Delivery</div>
+ </div>
+</section>
+<!-- FOOTER -->
+<footer class="footer-india">
+ <p>© 2026 ShopEasy | Made with in India</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
